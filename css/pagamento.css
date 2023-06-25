@@ -1,0 +1,19 @@
+@import "./style.css";
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  background-color: greenyellow;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  background-color: #946d46;
+  background-color: #946d46;
+}
+.form-group {
+  background-color: yellowgreen;
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <!-- MEU CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Eco Ponto</title>
+</head>
+
+<body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+    <div class="modal-dialog " role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title cor-ponto" id="modalLoginTitulo">Entre na Sua Conta</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="loginEmail" class="cor-ponto">Email</label>
+              <input type="email" class="form-control" id="loginEmail">
+            </div>
+            <div class="form-group">
+              <label for="loginSenha" class="cor-ponto">Senha</label>
+              <input type="password" class="form-control" id="loginSenha">
+            </div>
+            <button type="submit" class="btn btn-success"><a class="btn-conta" href="./pedidos.html">Entrar na Conta</a></button>
+            <small class="form-text text-muted">Esqueceu a senha? <a href="#" class="cor-ponto">Clique aqui</a>.</small>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fim Modal -->
+  <nav class="navbar navbar-expand-md navbar-dark  col-12 fixed-top px-5">
+    <a href="index.html" class="navbar-brand logo">
+      Eco<span class="cor-ponto">Ponto</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link btn-link"" href=" #residuos">Resíduos <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-link" href="#">Empresa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-link"" href=" #">Certificado</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn-link"" href=" #">Ajuda</a>
+        </li>
+
+
+      </ul>
+      <ul class=" navbar-nav   btn-header">
+        <li class="nav-item my-lg-0 my-2 mr-3"><a class="btn btn-outline-success px-2 py-1 nav-link  " data-toggle="modal" data-target="#modalLogin">Entrar</a></li>
+        <li class="nav-item my-lg-0 my-2 mr-3"><a class="btn btn-outline-success px-2 py-1 btn-header2 nav-link  " type="submit" href="./cadastro.html">Cadastre-se</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="container-fluid">
+    <div class="row bg-dark">
+      <div class="col-lg-7 p-0">
+        <img src="./img/9652124_7934.jpg" class="img-fluid" alt="Imagem responsiva">
+      </div>
+      <div class="col-lg-5  texto text-white p-4">
+        <h1 class="display-4">Ajude a deixar o Brasil mais <span class="cor-ponto">verde</span></h1>
+        <p class="lead">O melhor aplicativo para a conscientização do descarte e coleta, ajudando a sua cidade, está disponível em mais de 20 estados.</p>
+        <form action="">
+          <div class="input-group input-group-lg">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+            <span class="input-group-append">
+              <button class="btn btn-lg  btn-success" type="button">Inscreva-se</button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 bg-ligth text-center">
+    <div class="container">
+      <div class="my-5">
+        <span class="h6 d-block ">TIPOS DE RESÍDUOS</span>
+        <h2 class="display-4 text-success" id="residuos">Recicle Consciente</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <img src="./img/reciclar.png" alt="Resíduos">
+          <h3>Resíduos</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <img src="./img/reciclagem-de-metais.png" alt="reciclagem-de-metais">
+          <h3>Metais</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <img src="./img/maca.png" alt="orgânicos">
+          <h3>Orgânico</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <img src="./img/papel.png" alt="papeis">
+          <h3>Papeis</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <img src="./img/dump-truck.png" alt="entulho">
+          <h3>Entulho</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="container">
+    <div class="my-5 text-center">
+      <span class="h6 d-block ">AINDA ESTÁ COM DÚVIDAS?</span>
+      <h2 class="display-4 text-success" id="residuos">Perguntas Frequentes</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-6" id="perguntasFrequentes" data-children=".pergunta">
+        <div class="pergunta py-2">
+          <a href="#pergunta1" class="text-success lead" data-toggle="collapse" aria-expanded="true" aria-controls="pergunta1">→ Qual é a forma pela qual vocês emitem o certificado?</a>
+          <div id="pergunta1" class="collapse show" data-parent="#perguntasFrequentes" role="tabpanel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
+          </div>
+        </div>
+        <div class="pergunta py-2"">
+          <a href=" #pergunta2" class="text-success lead" data-toggle="collapse" aria-expanded="true" aria-controls="pergunta2">→ É possível acompanhar meu progresso de reciclagem e receber recompensas por meio do aplicativo? ?</a>
+          <div id="pergunta2" class="collapse" role="tabpanel" data-parent="#perguntasFrequentes">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
+          </div>
+        </div>
+        <div class="pergunta py-2"">
+          <a href=" #pergunta3" class="text-success lead" data-toggle="collapse" aria-expanded="true" aria-controls="pergunta3">→ Posso agendar a coleta de materiais recicláveis por meio do aplicativo? Como funciona? </a>
+          <div id="pergunta3" class="collapse" role="tabpanel" data-parent="#perguntasFrequentes">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
+          </div>
+        </div>
+        <div class="pergunta py-2"">
+          <a href=" #pergunta4" class="text-success lead" data-toggle="collapse" aria-expanded="true" aria-controls="pergunta4">→ O aplicativo fornece dicas e orientações sobre práticas de reciclagem e redução de resíduos?</a>
+          <div id="pergunta4" class="collapse" role="tabpanel" data-parent="#perguntasFrequentes">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+  <footer class="text-white mt-5 col-12">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-4">
+          <h4 class="h6">PÁGINAS</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-success">Empresa</a></li>
+            <li><a href="#" class="text-success">Certificado</a></li>
+            <li><a href="#" class="text-success">Ajuda</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <h4 class="h6">DADOS DE CONTATO</h4>
+          <ul class="list-unstyled text-secondary">
+            <li>ecoponto@ecoponto.com.br</li>
+            <li class="cor-ponto">21 99999-9999</li>
+            <li>De Seg. à Sex. das 8h às 18h</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4 class="h6">REDES SOCIAIS</h4>
+          <ul class="list-unstyled">
+            <li><a class="btn btn-outline-success mb-2 d-block" href="#" style="max-width: 120px;">Whatsapp</a></li>
+            <li><a a class="btn btn-outline-success mb-2 d-block" href="#" style="max-width: 120px;">Facebook</a></li>
+            <li><a a class="btn btn-outline-success mb-2 d-block" href="#" style="max-width: 120px;">Instagram</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

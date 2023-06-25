@@ -1,0 +1,10 @@
+@import "./style.css";
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.meubtn{
+  color: azure;
+  background-color: #335956;
+}

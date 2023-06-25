@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  padding-top: 62px;
+  background-color: #d7d7d7;
+}
+.cor-ponto {
+  color: #00a85a;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+.btn-header a {
+  color: #f5f5f5 !important;
+  background-color: #2a4846;
+  font-weight: 500;
+  border: 2px solid #f5f5f5;
+}
+
+.btn-header button:hover {
+  background-color: #00a85a;
+}
+
+.navbar {
+  background-color: #2a4846;
+}
+
+.btn-link {
+  font-weight: 500;
+  color: #f5f5f5 !important;
+}
+
+.btn-link:hover {
+  color: #00a85a !important;
+}
+
+.navbar-toggler:hover {
+  border: 2px solid #f5f5f5;
+}
+
+.back-modal {
+  background-color: #2a4846 !important;
+}
+/* fim do header */
+.pergunta {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.btn-conta {
+  text-decoration: none;
+  color: inherit;
+}
+.btn-conta:hover {
+  text-decoration: none;
+  color: inherit;
+}
+footer {
+  background-color: #2a4846;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-top: 0px;
+  }
+  .fixed-top {
+    position: relative;
+  }
+  .fixed-bottom {
+    position: relative;
+  }
+}
